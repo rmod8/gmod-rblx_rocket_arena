@@ -1,0 +1,3965 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8506"
+	"mapversion" "26"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "0"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "26"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-2560 2560 128) (2560 2560 128) (2560 -2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_105_64_40"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-2560 -2560 104) (2560 -2560 104) (2560 2560 104)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_105_64_40"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-2560 2560 128) (-2560 -2560 128) (-2560 -2560 104)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_105_64_40"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51.1997] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(2560 2560 104) (2560 -2560 104) (2560 -2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_105_64_40"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51.1997] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(2560 2560 128) (-2560 2560 128) (-2560 2560 104)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_105_64_40"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51.1997] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(2560 -2560 104) (-2560 -2560 104) (-2560 -2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_105_64_40"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51.1997] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "56"
+		side
+		{
+			"id" "42"
+			"plane" "(-2560 -1490 140) (1490 -1490 140) (1490 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-2560 -2560 128) (1490 -2560 128) (1490 -1490 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-2560 -1490 140) (-2560 -2560 140) (-2560 -2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(1490 -1490 128) (1490 -2560 128) (1490 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(1490 -1490 140) (-2560 -1490 140) (-2560 -1490 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(1490 -2560 128) (-2560 -2560 128) (-2560 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "69"
+		side
+		{
+			"id" "54"
+			"plane" "(1490 1500 140) (2560 1500 140) (2560 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(1490 -2560 128) (2560 -2560 128) (2560 1500 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(1490 1500 140) (1490 -2560 140) (1490 -2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(2560 1500 128) (2560 -2560 128) (2560 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(2560 1500 140) (1490 1500 140) (1490 1500 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(2560 -2560 128) (1490 -2560 128) (1490 -2560 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "75"
+		side
+		{
+			"id" "66"
+			"plane" "(-1500 2560 140) (2560 2560 140) (2560 1500 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(-1500 1500 128) (2560 1500 128) (2560 2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(-1500 2560 140) (-1500 1500 140) (-1500 1500 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(2560 2560 128) (2560 1500 128) (2560 1500 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(2560 2560 140) (-1500 2560 140) (-1500 2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(2560 1500 128) (-1500 1500 128) (-1500 1500 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "78"
+		side
+		{
+			"id" "78"
+			"plane" "(-2560 2560 140) (-1500 2560 140) (-1500 -1490 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-2560 -1490 128) (-1500 -1490 128) (-1500 2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(-2560 2560 140) (-2560 -1490 140) (-2560 -1490 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(-1500 2560 128) (-1500 -1490 128) (-1500 -1490 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(-1500 2560 140) (-2560 2560 140) (-2560 2560 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(-1500 -1490 128) (-2560 -1490 128) (-2560 -1490 140)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_196_40_28_TRANS-70"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "92"
+		side
+		{
+			"id" "102"
+			"plane" "(-1450 -1440 740) (-1450 -790 740) (-800 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "101"
+			"plane" "(-1450 -790 128) (-1450 -1440 128) (-800 -1440 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100"
+			"plane" "(-1450 -1440 128) (-1450 -790 128) (-1450 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(-800 -790 128) (-800 -1440 128) (-800 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(-1450 -790 128) (-800 -790 128) (-800 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(-800 -1440 128) (-1450 -1440 128) (-1450 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "98"
+		side
+		{
+			"id" "114"
+			"plane" "(790 -1440 740) (790 -790 740) (1440 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(790 -790 128) (790 -1440 128) (1440 -1440 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(790 -1440 128) (790 -790 128) (790 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(1440 -790 128) (1440 -1440 128) (1440 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(790 -790 128) (1440 -790 128) (1440 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(1440 -1440 128) (790 -1440 128) (790 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "116"
+		side
+		{
+			"id" "150"
+			"plane" "(-330 -1440 740) (-330 -790 740) (320 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "149"
+			"plane" "(-330 -790 128) (-330 -1440 128) (320 -1440 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "148"
+			"plane" "(-330 -1440 128) (-330 -790 128) (-330 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "147"
+			"plane" "(320 -790 128) (320 -1440 128) (320 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "146"
+			"plane" "(-330 -790 128) (320 -790 128) (320 -790 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "145"
+			"plane" "(320 -1440 128) (-330 -1440 128) (-330 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "127"
+		side
+		{
+			"id" "204"
+			"plane" "(-330 -320 740) (-330 330 740) (320 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_128_187_219"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-330 330 128) (-330 -320 128) (320 -320 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_128_187_219"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-330 -320 128) (-330 330 128) (-330 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_128_187_219"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(320 330 128) (320 -320 128) (320 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_128_187_219"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(-330 330 128) (320 330 128) (320 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_128_187_219"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(320 -320 128) (-330 -320 128) (-330 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_128_187_219"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132"
+		side
+		{
+			"id" "240"
+			"plane" "(-1450 800 740) (-1450 1450 740) (-800 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "239"
+			"plane" "(-1450 1450 128) (-1450 800 128) (-800 800 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "238"
+			"plane" "(-1450 800 128) (-1450 1450 128) (-1450 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "237"
+			"plane" "(-800 1450 128) (-800 800 128) (-800 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "236"
+			"plane" "(-1450 1450 128) (-800 1450 128) (-800 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "235"
+			"plane" "(-800 800 128) (-1450 800 128) (-1450 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "134"
+		side
+		{
+			"id" "252"
+			"plane" "(790 800 740) (790 1450 740) (1440 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "251"
+			"plane" "(790 1450 128) (790 800 128) (1440 800 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "250"
+			"plane" "(790 800 128) (790 1450 128) (790 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "249"
+			"plane" "(1440 1450 128) (1440 800 128) (1440 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "248"
+			"plane" "(790 1450 128) (1440 1450 128) (1440 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "247"
+			"plane" "(1440 800 128) (790 800 128) (790 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_116_134_157"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "153"
+		side
+		{
+			"id" "270"
+			"plane" "(-330 800 740) (-330 1450 740) (320 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "269"
+			"plane" "(-330 1450 128) (-330 800 128) (320 800 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "268"
+			"plane" "(-330 800 128) (-330 1450 128) (-330 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "267"
+			"plane" "(320 1450 128) (320 800 128) (320 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "266"
+			"plane" "(-330 1450 128) (320 1450 128) (320 1450 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "265"
+			"plane" "(320 800 128) (-330 800 128) (-330 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "157"
+		side
+		{
+			"id" "282"
+			"plane" "(-1450 -320 740) (-1450 330 740) (-800 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "281"
+			"plane" "(-1450 330 128) (-1450 -320 128) (-800 -320 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "280"
+			"plane" "(-1450 -320 128) (-1450 330 128) (-1450 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "279"
+			"plane" "(-800 330 128) (-800 -320 128) (-800 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "278"
+			"plane" "(-1450 330 128) (-800 330 128) (-800 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277"
+			"plane" "(-800 -320 128) (-1450 -320 128) (-1450 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "170"
+		side
+		{
+			"id" "294"
+			"plane" "(790 -320 740) (790 330 740) (1440 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "293"
+			"plane" "(790 330 128) (790 -320 128) (1440 -320 128)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "292"
+			"plane" "(790 -320 128) (790 330 128) (790 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "291"
+			"plane" "(1440 330 128) (1440 -320 128) (1440 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "290"
+			"plane" "(790 330 128) (1440 330 128) (1440 330 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "289"
+			"plane" "(1440 -320 128) (790 -320 128) (790 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "192"
+		side
+		{
+			"id" "336"
+			"plane" "(310 -800 920) (310 -790 920) (320 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "335"
+			"plane" "(310 -790 740) (310 -800 740) (320 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "334"
+			"plane" "(310 -800 740) (310 -790 740) (310 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "333"
+			"plane" "(320 -790 740) (320 -800 740) (320 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "332"
+			"plane" "(310 -790 740) (320 -790 740) (320 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "331"
+			"plane" "(320 -800 740) (310 -800 740) (310 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "200"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "193"
+		side
+		{
+			"id" "342"
+			"plane" "(-330 -800 920) (-330 -790 920) (-320 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "341"
+			"plane" "(-330 -790 740) (-330 -800 740) (-320 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "340"
+			"plane" "(-330 -800 740) (-330 -790 740) (-330 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "339"
+			"plane" "(-320 -790 740) (-320 -800 740) (-320 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "338"
+			"plane" "(-330 -790 740) (-320 -790 740) (-320 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "337"
+			"plane" "(-320 -800 740) (-330 -800 740) (-330 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "200"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "182"
+		side
+		{
+			"id" "306"
+			"plane" "(-330 -1440 920) (-330 -1430 920) (-320 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "305"
+			"plane" "(-330 -1430 740) (-330 -1440 740) (-320 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "304"
+			"plane" "(-330 -1440 740) (-330 -1430 740) (-330 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "303"
+			"plane" "(-320 -1430 740) (-320 -1440 740) (-320 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "302"
+			"plane" "(-330 -1430 740) (-320 -1430 740) (-320 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "301"
+			"plane" "(-320 -1440 740) (-330 -1440 740) (-330 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "200"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "190"
+		side
+		{
+			"id" "318"
+			"plane" "(310 -1440 920) (310 -1430 920) (320 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "317"
+			"plane" "(310 -1430 740) (310 -1440 740) (320 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "316"
+			"plane" "(310 -1440 740) (310 -1430 740) (310 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "315"
+			"plane" "(320 -1430 740) (320 -1440 740) (320 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "314"
+			"plane" "(310 -1430 740) (320 -1430 740) (320 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "313"
+			"plane" "(320 -1440 740) (310 -1440 740) (310 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "200"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "202"
+		side
+		{
+			"id" "372"
+			"plane" "(-810 -800 920) (-810 -790 920) (-800 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "371"
+			"plane" "(-810 -790 740) (-810 -800 740) (-800 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "370"
+			"plane" "(-810 -800 740) (-810 -790 740) (-810 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "369"
+			"plane" "(-800 -790 740) (-800 -800 740) (-800 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "368"
+			"plane" "(-810 -790 740) (-800 -790 740) (-800 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "367"
+			"plane" "(-800 -800 740) (-810 -800 740) (-810 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "203"
+		side
+		{
+			"id" "378"
+			"plane" "(-1450 -800 920) (-1450 -790 920) (-1440 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "377"
+			"plane" "(-1450 -790 740) (-1450 -800 740) (-1440 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "376"
+			"plane" "(-1450 -800 740) (-1450 -790 740) (-1450 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "375"
+			"plane" "(-1440 -790 740) (-1440 -800 740) (-1440 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "374"
+			"plane" "(-1450 -790 740) (-1440 -790 740) (-1440 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "373"
+			"plane" "(-1440 -800 740) (-1450 -800 740) (-1450 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "204"
+		side
+		{
+			"id" "384"
+			"plane" "(-1450 -1440 920) (-1450 -1430 920) (-1440 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "383"
+			"plane" "(-1450 -1430 740) (-1450 -1440 740) (-1440 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "382"
+			"plane" "(-1450 -1440 740) (-1450 -1430 740) (-1450 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "381"
+			"plane" "(-1440 -1430 740) (-1440 -1440 740) (-1440 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "380"
+			"plane" "(-1450 -1430 740) (-1440 -1430 740) (-1440 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "379"
+			"plane" "(-1440 -1440 740) (-1450 -1440 740) (-1450 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "205"
+		side
+		{
+			"id" "390"
+			"plane" "(-810 -1440 920) (-810 -1430 920) (-800 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "389"
+			"plane" "(-810 -1430 740) (-810 -1440 740) (-800 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "388"
+			"plane" "(-810 -1440 740) (-810 -1430 740) (-810 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "387"
+			"plane" "(-800 -1430 740) (-800 -1440 740) (-800 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "386"
+			"plane" "(-810 -1430 740) (-800 -1430 740) (-800 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "385"
+			"plane" "(-800 -1440 740) (-810 -1440 740) (-810 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "212"
+		side
+		{
+			"id" "420"
+			"plane" "(1430 -800 920) (1430 -790 920) (1440 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "419"
+			"plane" "(1430 -790 740) (1430 -800 740) (1440 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "418"
+			"plane" "(1430 -800 740) (1430 -790 740) (1430 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "417"
+			"plane" "(1440 -790 740) (1440 -800 740) (1440 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "416"
+			"plane" "(1430 -790 740) (1440 -790 740) (1440 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "415"
+			"plane" "(1440 -800 740) (1430 -800 740) (1430 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "211"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "213"
+		side
+		{
+			"id" "426"
+			"plane" "(790 -800 920) (790 -790 920) (800 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "425"
+			"plane" "(790 -790 740) (790 -800 740) (800 -800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "424"
+			"plane" "(790 -800 740) (790 -790 740) (790 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "423"
+			"plane" "(800 -790 740) (800 -800 740) (800 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "422"
+			"plane" "(790 -790 740) (800 -790 740) (800 -790 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "421"
+			"plane" "(800 -800 740) (790 -800 740) (790 -800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "211"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "214"
+		side
+		{
+			"id" "432"
+			"plane" "(790 -1440 920) (790 -1430 920) (800 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "431"
+			"plane" "(790 -1430 740) (790 -1440 740) (800 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "430"
+			"plane" "(790 -1440 740) (790 -1430 740) (790 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "429"
+			"plane" "(800 -1430 740) (800 -1440 740) (800 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "428"
+			"plane" "(790 -1430 740) (800 -1430 740) (800 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "427"
+			"plane" "(800 -1440 740) (790 -1440 740) (790 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "211"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "215"
+		side
+		{
+			"id" "438"
+			"plane" "(1430 -1440 920) (1430 -1430 920) (1440 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "437"
+			"plane" "(1430 -1430 740) (1430 -1440 740) (1440 -1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "436"
+			"plane" "(1430 -1440 740) (1430 -1430 740) (1430 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "435"
+			"plane" "(1440 -1430 740) (1440 -1440 740) (1440 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "434"
+			"plane" "(1430 -1430 740) (1440 -1430 740) (1440 -1430 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "433"
+			"plane" "(1440 -1440 740) (1430 -1440 740) (1430 -1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "211"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "222"
+		side
+		{
+			"id" "516"
+			"plane" "(1430 320 920) (1430 330 920) (1440 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "515"
+			"plane" "(1430 330 740) (1430 320 740) (1440 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "514"
+			"plane" "(1430 320 740) (1430 330 740) (1430 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "513"
+			"plane" "(1440 330 740) (1440 320 740) (1440 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "512"
+			"plane" "(1430 330 740) (1440 330 740) (1440 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "511"
+			"plane" "(1440 320 740) (1430 320 740) (1430 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "221"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "223"
+		side
+		{
+			"id" "522"
+			"plane" "(790 320 920) (790 330 920) (800 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "521"
+			"plane" "(790 330 740) (790 320 740) (800 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "520"
+			"plane" "(790 320 740) (790 330 740) (790 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "519"
+			"plane" "(800 330 740) (800 320 740) (800 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "518"
+			"plane" "(790 330 740) (800 330 740) (800 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "517"
+			"plane" "(800 320 740) (790 320 740) (790 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "221"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "224"
+		side
+		{
+			"id" "528"
+			"plane" "(790 -320 920) (790 -310 920) (800 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "527"
+			"plane" "(790 -310 740) (790 -320 740) (800 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "526"
+			"plane" "(790 -320 740) (790 -310 740) (790 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "525"
+			"plane" "(800 -310 740) (800 -320 740) (800 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "524"
+			"plane" "(790 -310 740) (800 -310 740) (800 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "523"
+			"plane" "(800 -320 740) (790 -320 740) (790 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "221"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "225"
+		side
+		{
+			"id" "534"
+			"plane" "(1430 -320 920) (1430 -310 920) (1440 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "533"
+			"plane" "(1430 -310 740) (1430 -320 740) (1440 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "532"
+			"plane" "(1430 -320 740) (1430 -310 740) (1430 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "531"
+			"plane" "(1440 -310 740) (1440 -320 740) (1440 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "530"
+			"plane" "(1430 -310 740) (1440 -310 740) (1440 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "529"
+			"plane" "(1440 -320 740) (1430 -320 740) (1430 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "221"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "227"
+		side
+		{
+			"id" "540"
+			"plane" "(310 320 920) (310 330 920) (320 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "539"
+			"plane" "(310 330 740) (310 320 740) (320 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "538"
+			"plane" "(310 320 740) (310 330 740) (310 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "537"
+			"plane" "(320 330 740) (320 320 740) (320 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "536"
+			"plane" "(310 330 740) (320 330 740) (320 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "535"
+			"plane" "(320 320 740) (310 320 740) (310 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "228"
+		side
+		{
+			"id" "546"
+			"plane" "(-330 320 920) (-330 330 920) (-320 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "545"
+			"plane" "(-330 330 740) (-330 320 740) (-320 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "544"
+			"plane" "(-330 320 740) (-330 330 740) (-330 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "543"
+			"plane" "(-320 330 740) (-320 320 740) (-320 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "542"
+			"plane" "(-330 330 740) (-320 330 740) (-320 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "541"
+			"plane" "(-320 320 740) (-330 320 740) (-330 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "229"
+		side
+		{
+			"id" "552"
+			"plane" "(-330 -320 920) (-330 -310 920) (-320 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "551"
+			"plane" "(-330 -310 740) (-330 -320 740) (-320 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "550"
+			"plane" "(-330 -320 740) (-330 -310 740) (-330 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "549"
+			"plane" "(-320 -310 740) (-320 -320 740) (-320 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "548"
+			"plane" "(-330 -310 740) (-320 -310 740) (-320 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "547"
+			"plane" "(-320 -320 740) (-330 -320 740) (-330 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "230"
+		side
+		{
+			"id" "558"
+			"plane" "(310 -320 920) (310 -310 920) (320 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "557"
+			"plane" "(310 -310 740) (310 -320 740) (320 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "556"
+			"plane" "(310 -320 740) (310 -310 740) (310 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "555"
+			"plane" "(320 -310 740) (320 -320 740) (320 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "554"
+			"plane" "(310 -310 740) (320 -310 740) (320 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "553"
+			"plane" "(320 -320 740) (310 -320 740) (310 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "232"
+		side
+		{
+			"id" "564"
+			"plane" "(-810 320 920) (-810 330 920) (-800 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "563"
+			"plane" "(-810 330 740) (-810 320 740) (-800 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "562"
+			"plane" "(-810 320 740) (-810 330 740) (-810 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "561"
+			"plane" "(-800 330 740) (-800 320 740) (-800 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "560"
+			"plane" "(-810 330 740) (-800 330 740) (-800 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "559"
+			"plane" "(-800 320 740) (-810 320 740) (-810 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "231"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "233"
+		side
+		{
+			"id" "570"
+			"plane" "(-1450 320 920) (-1450 330 920) (-1440 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "569"
+			"plane" "(-1450 330 740) (-1450 320 740) (-1440 320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "568"
+			"plane" "(-1450 320 740) (-1450 330 740) (-1450 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "567"
+			"plane" "(-1440 330 740) (-1440 320 740) (-1440 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "566"
+			"plane" "(-1450 330 740) (-1440 330 740) (-1440 330 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "565"
+			"plane" "(-1440 320 740) (-1450 320 740) (-1450 320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "231"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "234"
+		side
+		{
+			"id" "576"
+			"plane" "(-1450 -320 920) (-1450 -310 920) (-1440 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "575"
+			"plane" "(-1450 -310 740) (-1450 -320 740) (-1440 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "574"
+			"plane" "(-1450 -320 740) (-1450 -310 740) (-1450 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "573"
+			"plane" "(-1440 -310 740) (-1440 -320 740) (-1440 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "572"
+			"plane" "(-1450 -310 740) (-1440 -310 740) (-1440 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "571"
+			"plane" "(-1440 -320 740) (-1450 -320 740) (-1450 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "231"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "235"
+		side
+		{
+			"id" "582"
+			"plane" "(-810 -320 920) (-810 -310 920) (-800 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "581"
+			"plane" "(-810 -310 740) (-810 -320 740) (-800 -320 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "580"
+			"plane" "(-810 -320 740) (-810 -310 740) (-810 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "579"
+			"plane" "(-800 -310 740) (-800 -320 740) (-800 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "578"
+			"plane" "(-810 -310 740) (-800 -310 740) (-800 -310 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "577"
+			"plane" "(-800 -320 740) (-810 -320 740) (-810 -320 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "231"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "267"
+		side
+		{
+			"id" "660"
+			"plane" "(1430 1440 920) (1430 1450 920) (1440 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "659"
+			"plane" "(1430 1450 740) (1430 1440 740) (1440 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "658"
+			"plane" "(1430 1440 740) (1430 1450 740) (1430 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "657"
+			"plane" "(1440 1450 740) (1440 1440 740) (1440 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "656"
+			"plane" "(1430 1450 740) (1440 1450 740) (1440 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "655"
+			"plane" "(1440 1440 740) (1430 1440 740) (1430 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "266"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "268"
+		side
+		{
+			"id" "666"
+			"plane" "(790 1440 920) (790 1450 920) (800 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "665"
+			"plane" "(790 1450 740) (790 1440 740) (800 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "664"
+			"plane" "(790 1440 740) (790 1450 740) (790 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "663"
+			"plane" "(800 1450 740) (800 1440 740) (800 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "662"
+			"plane" "(790 1450 740) (800 1450 740) (800 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "661"
+			"plane" "(800 1440 740) (790 1440 740) (790 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "266"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "269"
+		side
+		{
+			"id" "672"
+			"plane" "(790 800 920) (790 810 920) (800 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "671"
+			"plane" "(790 810 740) (790 800 740) (800 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "670"
+			"plane" "(790 800 740) (790 810 740) (790 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "669"
+			"plane" "(800 810 740) (800 800 740) (800 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "668"
+			"plane" "(790 810 740) (800 810 740) (800 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "667"
+			"plane" "(800 800 740) (790 800 740) (790 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "266"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "270"
+		side
+		{
+			"id" "678"
+			"plane" "(1430 800 920) (1430 810 920) (1440 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "677"
+			"plane" "(1430 810 740) (1430 800 740) (1440 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "676"
+			"plane" "(1430 800 740) (1430 810 740) (1430 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "675"
+			"plane" "(1440 810 740) (1440 800 740) (1440 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "674"
+			"plane" "(1430 810 740) (1440 810 740) (1440 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "673"
+			"plane" "(1440 800 740) (1430 800 740) (1430 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "266"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "272"
+		side
+		{
+			"id" "684"
+			"plane" "(310 1440 920) (310 1450 920) (320 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "683"
+			"plane" "(310 1450 740) (310 1440 740) (320 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "682"
+			"plane" "(310 1440 740) (310 1450 740) (310 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "681"
+			"plane" "(320 1450 740) (320 1440 740) (320 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "680"
+			"plane" "(310 1450 740) (320 1450 740) (320 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "679"
+			"plane" "(320 1440 740) (310 1440 740) (310 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "271"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "273"
+		side
+		{
+			"id" "690"
+			"plane" "(-330 1440 920) (-330 1450 920) (-320 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "689"
+			"plane" "(-330 1450 740) (-330 1440 740) (-320 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "688"
+			"plane" "(-330 1440 740) (-330 1450 740) (-330 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "687"
+			"plane" "(-320 1450 740) (-320 1440 740) (-320 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "686"
+			"plane" "(-330 1450 740) (-320 1450 740) (-320 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "685"
+			"plane" "(-320 1440 740) (-330 1440 740) (-330 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "271"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "274"
+		side
+		{
+			"id" "696"
+			"plane" "(-330 800 920) (-330 810 920) (-320 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "695"
+			"plane" "(-330 810 740) (-330 800 740) (-320 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "694"
+			"plane" "(-330 800 740) (-330 810 740) (-330 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "693"
+			"plane" "(-320 810 740) (-320 800 740) (-320 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "692"
+			"plane" "(-330 810 740) (-320 810 740) (-320 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "691"
+			"plane" "(-320 800 740) (-330 800 740) (-330 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "271"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "275"
+		side
+		{
+			"id" "702"
+			"plane" "(310 800 920) (310 810 920) (320 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "701"
+			"plane" "(310 810 740) (310 800 740) (320 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "700"
+			"plane" "(310 800 740) (310 810 740) (310 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "699"
+			"plane" "(320 810 740) (320 800 740) (320 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "698"
+			"plane" "(310 810 740) (320 810 740) (320 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "697"
+			"plane" "(320 800 740) (310 800 740) (310 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "271"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "277"
+		side
+		{
+			"id" "708"
+			"plane" "(-810 1440 920) (-810 1450 920) (-800 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "707"
+			"plane" "(-810 1450 740) (-810 1440 740) (-800 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "706"
+			"plane" "(-810 1440 740) (-810 1450 740) (-810 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "705"
+			"plane" "(-800 1450 740) (-800 1440 740) (-800 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "704"
+			"plane" "(-810 1450 740) (-800 1450 740) (-800 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "703"
+			"plane" "(-800 1440 740) (-810 1440 740) (-810 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "276"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "278"
+		side
+		{
+			"id" "714"
+			"plane" "(-1450 1440 920) (-1450 1450 920) (-1440 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "713"
+			"plane" "(-1450 1450 740) (-1450 1440 740) (-1440 1440 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "712"
+			"plane" "(-1450 1440 740) (-1450 1450 740) (-1450 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "711"
+			"plane" "(-1440 1450 740) (-1440 1440 740) (-1440 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "710"
+			"plane" "(-1450 1450 740) (-1440 1450 740) (-1440 1450 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "709"
+			"plane" "(-1440 1440 740) (-1450 1440 740) (-1450 1440 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "276"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "279"
+		side
+		{
+			"id" "720"
+			"plane" "(-1450 800 920) (-1450 810 920) (-1440 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "719"
+			"plane" "(-1450 810 740) (-1450 800 740) (-1440 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "718"
+			"plane" "(-1450 800 740) (-1450 810 740) (-1450 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "717"
+			"plane" "(-1440 810 740) (-1440 800 740) (-1440 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "716"
+			"plane" "(-1450 810 740) (-1440 810 740) (-1440 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "715"
+			"plane" "(-1440 800 740) (-1450 800 740) (-1450 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "276"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "280"
+		side
+		{
+			"id" "726"
+			"plane" "(-810 800 920) (-810 810 920) (-800 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/STUDS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "725"
+			"plane" "(-810 810 740) (-810 800 740) (-800 800 740)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/INLETS_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "724"
+			"plane" "(-810 800 740) (-810 810 740) (-810 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "723"
+			"plane" "(-800 810 740) (-800 800 740) (-800 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[0 1 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "722"
+			"plane" "(-810 810 740) (-800 810 740) (-800 810 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "721"
+			"plane" "(-800 800 740) (-810 800 740) (-810 800 920)"
+			"material" "RETR0MOD8/RBLX_ROCKET_ARENA/COLORS/SMOOTH_110_153_202"
+			"uaxis" "[1 0 0 0] 0.15625"
+			"vaxis" "[0 0 -1 51] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "247 200 0"
+			"groupid" "276"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "200"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "201"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "211"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "221"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "226"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "231"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "266"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "271"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "276"
+		editor
+		{
+			"color" "247 200 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

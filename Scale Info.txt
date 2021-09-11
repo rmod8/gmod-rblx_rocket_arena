@@ -1,0 +1,3 @@
+Scale map with texture lock and texture scale lock on, with a scale of 1.65.
+
+16.5HU:1Stud
