@@ -1,0 +1,2630 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20742 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 17
+Reduced 16 texdatas to 12 (840 bytes to 617)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+LoadPortals: couldn't read c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+No vis information, direct lighting only.
+1236 faces
+1571948 square feet [226360608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0188 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             330/163840       2640/1310720  ( 0.2%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes              1348/65536       16176/786432   ( 2.1%) 
+nodes                  575/65536       18400/2097152  ( 0.9%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1236/65536       69216/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              269/65536       15064/3670016  ( 0.4%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            212/65536         424/131072   ( 0.3%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges             6528/512000      26112/2048000  ( 1.3%) 
+edges                 3422/256000      13688/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1020/65536        2040/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1535956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         247/393216   ( 0.1%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient       408/65536       11424/1835008  ( 0.6%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       20742/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2980
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+14 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20742 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 17
+Reduced 16 texdatas to 12 (840 bytes to 617)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+LoadPortals: couldn't read c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+No vis information, direct lighting only.
+1236 faces
+1571948 square feet [226360608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0191 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             330/163840       2640/1310720  ( 0.2%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes              1348/65536       16176/786432   ( 2.1%) 
+nodes                  575/65536       18400/2097152  ( 0.9%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1236/65536       69216/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              269/65536       15064/3670016  ( 0.4%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1292/65536        2584/131072   ( 2.0%) 
+leafbrushes            212/65536         424/131072   ( 0.3%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges             6528/512000      26112/2048000  ( 1.3%) 
+edges                 3422/256000      13688/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1020/65536        2040/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1535956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         247/393216   ( 0.1%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient       408/65536       11424/1835008  ( 0.6%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       20742/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2980
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20742 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 14
+Reduced 16 texdatas to 10 (840 bytes to 513)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 232 portalclusters
+ 688 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 53440
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 232
+visdatasize:15316  compressed from 14848
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+844 faces
+886669 square feet [127680336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+844 patches before subdivision
+47556 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2783195, max 453
+transfer lists:  21.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 55/16384         660/196608   ( 0.3%) 
+brushsides             330/163840       2640/1310720  ( 0.2%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               986/65536       11832/786432   ( 1.5%) 
+nodes                  419/65536       13408/2097152  ( 0.6%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  844/65536       47264/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              239/65536       13384/3670016  ( 0.4%) 
+leaves                 421/65536       13472/2097152  ( 0.6%) 
+leaffaces              900/65536        1800/131072   ( 1.4%) 
+leafbrushes            212/65536         424/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4704/512000      18816/2048000  ( 0.9%) 
+edges                 2510/256000      10040/1024000  ( 1.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             54/32768         540/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           744/65536        1488/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1061748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15316/16777216 ( 0.1%) 
+entdata               [variable]         348/393216   ( 0.1%) 
+LDR ambient table      421/65536        1684/262144   ( 0.6%) 
+HDR ambient table      421/65536        1684/262144   ( 0.6%) 
+LDR leaf ambient       232/65536        6496/1835008  ( 0.4%) 
+HDR leaf ambient       421/65536       11788/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       20742/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2060
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+5 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (25718 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 27
+Reduced 26 texdatas to 18 (1366 bytes to 933)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 260 portalclusters
+ 781 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.01%)
+Total clusters visible: 67064
+Average clusters visible: 257
+Building PAS...
+Average clusters audible: 260
+visdatasize:19244  compressed from 20800
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+928 faces
+888151 square feet [127893808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+928 patches before subdivision
+47832 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2950624, max 502
+transfer lists:  22.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0158 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 69/16384         828/196608   ( 0.4%) 
+brushsides             414/163840       3312/1310720  ( 0.3%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes              1094/65536       13128/786432   ( 1.7%) 
+nodes                  469/65536       15008/2097152  ( 0.7%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  928/65536       51968/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              293/65536       16408/3670016  ( 0.4%) 
+leaves                 471/65536       15072/2097152  ( 0.7%) 
+leaffaces             1004/65536        2008/131072   ( 1.5%) 
+leafbrushes            236/65536         472/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5320/512000      21280/2048000  ( 1.0%) 
+edges                 2867/256000      11468/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           822/65536        1644/131072   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1070848/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19244/16777216 ( 0.1%) 
+entdata               [variable]         342/393216   ( 0.1%) 
+LDR ambient table      471/65536        1884/262144   ( 0.7%) 
+HDR ambient table      471/65536        1884/262144   ( 0.7%) 
+LDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+HDR leaf ambient       471/65536       13188/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       25718/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2292
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+6 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34422 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 42
+Reduced 30 texdatas to 21 (1540 bytes to 1055)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 236 portalclusters
+ 777 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.08%)
+Total clusters visible: 54991
+Average clusters visible: 233
+Building PAS...
+Average clusters audible: 236
+visdatasize:16052  compressed from 15104
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+960 faces
+1132285 square feet [163049088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+960 patches before subdivision
+42396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2844638, max 542
+transfer lists:  21.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0166 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 91/16384        1092/196608   ( 0.6%) 
+brushsides             546/163840       4368/1310720  ( 0.3%) 
+planes                 226/65536        4520/1310720  ( 0.3%) 
+vertexes              1215/65536       14580/786432   ( 1.9%) 
+nodes                  497/65536       15904/2097152  ( 0.8%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  960/65536       53760/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              397/65536       22232/3670016  ( 0.6%) 
+leaves                 503/65536       16096/2097152  ( 0.8%) 
+leaffaces             1114/65536        2228/131072   ( 1.7%) 
+leafbrushes            272/65536         544/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5860/512000      23440/2048000  ( 1.1%) 
+edges                 3165/256000      12660/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           552/65536        1104/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1074684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       16052/16777216 ( 0.1%) 
+entdata               [variable]        1182/393216   ( 0.3%) 
+LDR ambient table      503/65536        2012/262144   ( 0.8%) 
+HDR ambient table      503/65536        2012/262144   ( 0.8%) 
+LDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+HDR leaf ambient       503/65536       14084/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       34422/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2352
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+4 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34422 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 42
+Reduced 30 texdatas to 21 (1540 bytes to 1055)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 236 portalclusters
+ 777 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.08%)
+Total clusters visible: 54991
+Average clusters visible: 233
+Building PAS...
+Average clusters audible: 236
+visdatasize:16052  compressed from 15104
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+960 faces
+1133423 square feet [163212960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+960 patches before subdivision
+42396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2844639, max 542
+transfer lists:  21.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0140 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 91/16384        1092/196608   ( 0.6%) 
+brushsides             546/163840       4368/1310720  ( 0.3%) 
+planes                 228/65536        4560/1310720  ( 0.3%) 
+vertexes              1215/65536       14580/786432   ( 1.9%) 
+nodes                  497/65536       15904/2097152  ( 0.8%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  960/65536       53760/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              397/65536       22232/3670016  ( 0.6%) 
+leaves                 503/65536       16096/2097152  ( 0.8%) 
+leaffaces             1114/65536        2228/131072   ( 1.7%) 
+leafbrushes            272/65536         544/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5860/512000      23440/2048000  ( 1.1%) 
+edges                 3165/256000      12660/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           552/65536        1104/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1074684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       16052/16777216 ( 0.1%) 
+entdata               [variable]        1182/393216   ( 0.3%) 
+LDR ambient table      503/65536        2012/262144   ( 0.8%) 
+HDR ambient table      503/65536        2012/262144   ( 0.8%) 
+LDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+HDR leaf ambient       503/65536       14084/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       34422/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2352
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+4 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34422 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 42
+Reduced 30 texdatas to 21 (1540 bytes to 1055)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 236 portalclusters
+ 777 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.08%)
+Total clusters visible: 54991
+Average clusters visible: 233
+Building PAS...
+Average clusters audible: 236
+visdatasize:16052  compressed from 15104
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+960 faces
+1133423 square feet [163212960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+960 patches before subdivision
+42396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2844639, max 542
+transfer lists:  21.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0157 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 91/16384        1092/196608   ( 0.6%) 
+brushsides             546/163840       4368/1310720  ( 0.3%) 
+planes                 228/65536        4560/1310720  ( 0.3%) 
+vertexes              1215/65536       14580/786432   ( 1.9%) 
+nodes                  497/65536       15904/2097152  ( 0.8%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  960/65536       53760/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              397/65536       22232/3670016  ( 0.6%) 
+leaves                 503/65536       16096/2097152  ( 0.8%) 
+leaffaces             1114/65536        2228/131072   ( 1.7%) 
+leafbrushes            272/65536         544/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5860/512000      23440/2048000  ( 1.1%) 
+edges                 3165/256000      12660/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           552/65536        1104/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1074684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       16052/16777216 ( 0.1%) 
+entdata               [variable]        1194/393216   ( 0.3%) 
+LDR ambient table      503/65536        2012/262144   ( 0.8%) 
+HDR ambient table      503/65536        2012/262144   ( 0.8%) 
+LDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+HDR leaf ambient       503/65536       14084/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       34422/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2352
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+4 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34422 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 42
+Reduced 30 texdatas to 21 (1540 bytes to 1055)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 236 portalclusters
+ 777 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.08%)
+Total clusters visible: 54991
+Average clusters visible: 233
+Building PAS...
+Average clusters audible: 236
+visdatasize:16052  compressed from 15104
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+960 faces
+1133423 square feet [163212960.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+960 patches before subdivision
+42396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2844639, max 542
+transfer lists:  21.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0132 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 91/16384        1092/196608   ( 0.6%) 
+brushsides             546/163840       4368/1310720  ( 0.3%) 
+planes                 228/65536        4560/1310720  ( 0.3%) 
+vertexes              1215/65536       14580/786432   ( 1.9%) 
+nodes                  497/65536       15904/2097152  ( 0.8%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  960/65536       53760/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              397/65536       22232/3670016  ( 0.6%) 
+leaves                 503/65536       16096/2097152  ( 0.8%) 
+leaffaces             1114/65536        2228/131072   ( 1.7%) 
+leafbrushes            272/65536         544/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5860/512000      23440/2048000  ( 1.1%) 
+edges                 3165/256000      12660/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           552/65536        1104/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1074684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       16052/16777216 ( 0.1%) 
+entdata               [variable]        1242/393216   ( 0.3%) 
+LDR ambient table      503/65536        2012/262144   ( 0.8%) 
+HDR ambient table      503/65536        2012/262144   ( 0.8%) 
+LDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+HDR leaf ambient       503/65536       14084/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]       34422/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2352
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+4 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (352406 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 81 texinfos to 62
+Reduced 48 texdatas to 37 (2460 bytes to 1868)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1431 portalclusters
+5126 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 36435 visible clusters (1.87%)
+Total clusters visible: 1953128
+Average clusters visible: 1364
+Building PAS...
+Average clusters audible: 1431
+visdatasize:524491  compressed from 526608
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+5994 faces
+1187956 square feet [171065760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5994 patches before subdivision
+53636 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9885205, max 2188
+transfer lists:  75.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                959/16384       11508/196608   ( 5.9%) 
+brushsides            5754/163840      46032/1310720  ( 3.5%) 
+planes                 614/65536       12280/1310720  ( 0.9%) 
+vertexes              8413/65536      100956/786432   (12.8%) 
+nodes                 2905/65536       92960/2097152  ( 4.4%) 
+texinfos                62/12288        4464/884736   ( 0.5%) 
+texdata                 37/2048         1184/65536    ( 1.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5994/65536      335664/3670016  ( 9.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4224/65536      236544/3670016  ( 6.4%) 
+leaves                2911/65536       93152/2097152  ( 4.4%) 
+leaffaces             6373/65536       12746/131072   ( 9.7%) 
+leafbrushes           1924/65536        3848/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            45706/512000     182824/2048000  ( 8.9%) 
+edges                24929/256000      99716/1024000  ( 9.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            820/32768        8200/327680   ( 2.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11907/65536       23814/131072   (18.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1512656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      524491/16777216 ( 3.1%) 
+entdata               [variable]        1442/393216   ( 0.4%) 
+LDR ambient table     2911/65536       11644/262144   ( 4.4%) 
+HDR ambient table     2911/65536       11644/262144   ( 4.4%) 
+LDR leaf ambient      1455/65536       40740/1835008  ( 2.2%) 
+HDR leaf ambient      2911/65536       81508/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      352406/4194304  ( 8.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16822
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+13 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (449238 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 95 texinfos to 76
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1894 portalclusters
+6657 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 76089 visible clusters (2.23%)
+Total clusters visible: 3404653
+Average clusters visible: 1797
+Building PAS...
+Average clusters audible: 1894
+visdatasize:913877  compressed from 909120
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+7544 faces
+1205721 square feet [173623904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7544 patches before subdivision
+57806 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12537636, max 2802
+transfer lists:  95.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2060032, 1916326, 1417500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1162435, 1078456, 790705)
+Build Patch/Sample Hash Table(s).....Done<0.0211 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes               1231/16384       14772/196608   ( 7.5%) 
+brushsides            7386/163840      59088/1310720  ( 4.5%) 
+planes                 646/65536       12920/1310720  ( 1.0%) 
+vertexes             10525/65536      126300/786432   (16.1%) 
+nodes                 3771/65536      120672/2097152  ( 5.8%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7544/65536      422464/3670016  (11.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5359/65536      300104/3670016  ( 8.2%) 
+leaves                3777/65536      120864/2097152  ( 5.8%) 
+leaffaces             8096/65536       16192/131072   (12.4%) 
+leafbrushes           2409/65536        4818/131072   ( 3.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            57614/512000     230456/2048000  (11.3%) 
+edges                31573/256000     126292/1024000  (12.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1010/32768       10100/327680   ( 3.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14637/65536       29274/131072   (22.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1644500/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      913877/16777216 ( 5.4%) 
+entdata               [variable]        2202/393216   ( 0.6%) 
+LDR ambient table     3777/65536       15108/262144   ( 5.8%) 
+HDR ambient table     3777/65536       15108/262144   ( 5.8%) 
+LDR leaf ambient     12447/65536      348516/1835008  (19.0%) 
+HDR leaf ambient      3777/65536      105756/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      449238/4194304  (10.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21090
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (452770 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1894 portalclusters
+6657 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 76089 visible clusters (2.23%)
+Total clusters visible: 3404653
+Average clusters visible: 1797
+Building PAS...
+Average clusters audible: 1894
+visdatasize:913877  compressed from 909120
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+7588 faces
+1225591 square feet [176485216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7588 patches before subdivision
+58578 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13000106, max 2805
+transfer lists:  99.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2149435, 1997893, 1473960)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1249590, 1158185, 846392)
+Build Patch/Sample Hash Table(s).....Done<0.0210 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes             10573/65536      126876/786432   (16.1%) 
+nodes                 3795/65536      121440/2097152  ( 5.8%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7588/65536      424928/3670016  (11.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5403/65536      302568/3670016  ( 8.2%) 
+leaves                3805/65536      121760/2097152  ( 5.8%) 
+leaffaces             8140/65536       16280/131072   (12.4%) 
+leafbrushes           2417/65536        4834/131072   ( 3.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            58006/512000     232024/2048000  (11.3%) 
+edges                31789/256000     127156/1024000  (12.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1042/32768       10420/327680   ( 3.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15021/65536       30042/131072   (22.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1665908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      913877/16777216 ( 5.4%) 
+entdata               [variable]        3090/393216   ( 0.8%) 
+LDR ambient table     3805/65536       15220/262144   ( 5.8%) 
+HDR ambient table     3805/65536       15220/262144   ( 5.8%) 
+LDR leaf ambient     12654/65536      354312/1835008  (19.3%) 
+HDR leaf ambient      3805/65536      106540/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452770/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21218
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (452770 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1894 portalclusters
+6657 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 76089 visible clusters (2.23%)
+Total clusters visible: 3404653
+Average clusters visible: 1797
+Building PAS...
+Average clusters audible: 1894
+visdatasize:913877  compressed from 909120
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+7588 faces
+1225591 square feet [176485216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7588 patches before subdivision
+58578 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13000106, max 2805
+transfer lists:  99.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2149435, 1997893, 1473960)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1249590, 1158185, 846392)
+Build Patch/Sample Hash Table(s).....Done<0.0211 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes             10573/65536      126876/786432   (16.1%) 
+nodes                 3795/65536      121440/2097152  ( 5.8%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7588/65536      424928/3670016  (11.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5403/65536      302568/3670016  ( 8.2%) 
+leaves                3805/65536      121760/2097152  ( 5.8%) 
+leaffaces             8140/65536       16280/131072   (12.4%) 
+leafbrushes           2417/65536        4834/131072   ( 3.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            58006/512000     232024/2048000  (11.3%) 
+edges                31789/256000     127156/1024000  (12.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1042/32768       10420/327680   ( 3.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15021/65536       30042/131072   (22.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1665908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      913877/16777216 ( 5.4%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table     3805/65536       15220/262144   ( 5.8%) 
+HDR ambient table     3805/65536       15220/262144   ( 5.8%) 
+LDR leaf ambient     12654/65536      354312/1835008  (19.3%) 
+HDR leaf ambient      3805/65536      106540/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452770/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21218
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (452770 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1894 portalclusters
+6657 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452770 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+1894 portalclusters
+6661 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 240 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452506 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 621 portalclusters
+2206 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1618 visible clusters (0.45%)
+Total clusters visible: 360249
+Average clusters visible: 580
+Building PAS...
+Average clusters audible: 621
+visdatasize:102086  compressed from 99360
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+6408 faces
+1228244 square feet [176867264.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6408 patches before subdivision
+55968 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9924603, max 2446
+transfer lists:  75.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1952517, 1815423, 1340714)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1162988, 1077639, 786859)
+Build Patch/Sample Hash Table(s).....Done<0.0210 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              9215/65536      110580/786432   (14.1%) 
+nodes                 1217/65536       38944/2097152  ( 1.9%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6408/65536      358848/3670016  ( 9.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5310/65536      297360/3670016  ( 8.1%) 
+leaves                1227/65536       39264/2097152  ( 1.9%) 
+leaffaces             7345/65536       14690/131072   (11.2%) 
+leafbrushes           1832/65536        3664/131072   ( 2.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            52624/512000     210496/2048000  (10.3%) 
+edges                29888/256000     119552/1024000  (11.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1146/32768       11460/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18306/65536       36612/131072   (27.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1591228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      102086/16777216 ( 0.6%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table     1227/65536        4908/262144   ( 1.9%) 
+HDR ambient table     1227/65536        4908/262144   ( 1.9%) 
+LDR leaf ambient      5490/65536      153720/1835008  ( 8.4%) 
+HDR leaf ambient      1227/65536       34356/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452506/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18568
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 424 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452242 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 309 portalclusters
+ 954 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 86 visible clusters (0.11%)
+Total clusters visible: 79577
+Average clusters visible: 257
+Building PAS...
+Average clusters audible: 309
+visdatasize:26365  compressed from 24720
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+6183 faces
+1229082 square feet [176987840.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6183 patches before subdivision
+56271 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9668909, max 2276
+transfer lists:  73.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1951371, 1814533, 1340442)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1168715, 1082943, 790708)
+Build Patch/Sample Hash Table(s).....Done<0.0208 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              9059/65536      108708/786432   (13.8%) 
+nodes                  756/65536       24192/2097152  ( 1.2%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6183/65536      346248/3670016  ( 9.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5266/65536      294896/3670016  ( 8.0%) 
+leaves                 766/65536       24512/2097152  ( 1.2%) 
+leaffaces             7190/65536       14380/131072   (11.0%) 
+leafbrushes           1836/65536        3672/131072   ( 2.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            51694/512000     206776/2048000  (10.1%) 
+edges                29646/256000     118584/1024000  (11.6%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1149/32768       11490/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19095/65536       38190/131072   (29.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1580976/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       26365/16777216 ( 0.2%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table      766/65536        3064/262144   ( 1.2%) 
+HDR ambient table      766/65536        3064/262144   ( 1.2%) 
+LDR leaf ambient      3543/65536       99204/1835008  ( 5.4%) 
+HDR leaf ambient       766/65536       21448/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452242/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18264
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 502 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452242 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+  72 portalclusters
+ 160 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 5156
+Average clusters visible: 71
+Building PAS...
+Average clusters audible: 72
+visdatasize:1876  compressed from 2304
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+5852 faces
+1229009 square feet [176977408.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5852 patches before subdivision
+56012 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9256775, max 2139
+transfer lists:  70.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1942973, 1806362, 1333548)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1152359, 1067881, 779962)
+Build Patch/Sample Hash Table(s).....Done<0.0211 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              8733/65536      104796/786432   (13.3%) 
+nodes                  271/65536        8672/2097152  ( 0.4%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5852/65536      327712/3670016  ( 8.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5187/65536      290472/3670016  ( 7.9%) 
+leaves                 281/65536        8992/2097152  ( 0.4%) 
+leaffaces             6255/65536       12510/131072   ( 9.5%) 
+leafbrushes           1520/65536        3040/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            49735/512000     198940/2048000  ( 9.7%) 
+edges                28777/256000     115108/1024000  (11.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1088/32768       10880/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17922/65536       35844/131072   (27.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1560148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1876/16777216 ( 0.0%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table      281/65536        1124/262144   ( 0.4%) 
+HDR ambient table      281/65536        1124/262144   ( 0.4%) 
+LDR leaf ambient      1560/65536       43680/1835008  ( 2.4%) 
+HDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452242/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17283
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 502 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452242 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 84
+Reduced 55 texdatas to 44 (2774 bytes to 2182)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+  72 portalclusters
+ 160 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4936
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 72
+visdatasize:1876  compressed from 2304
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+5852 faces
+1229009 square feet [176977408.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5852 patches before subdivision
+56012 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9256283, max 2139
+transfer lists:  70.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1936998, 1800636, 1328921)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1149570, 1065081, 777391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672629, 623808, 456797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(492442, 456046, 332364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(358874, 332373, 242288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(279828, 259026, 188484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(217913, 201702, 146741)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(173134, 160222, 116484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(137579, 127311, 92539)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(110012, 101793, 73968)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(88011, 81431, 59165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(70563, 65285, 47426)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(56598, 52363, 38035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(45436, 42035, 30531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(36487, 33756, 24515)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(29313, 27118, 19694)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(23554, 21790, 15824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(18931, 17513, 12718)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(15218, 14078, 10223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(12235, 11318, 8219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(9837, 9100, 6608)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(7911, 7318, 5314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(6361, 5885, 4273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(5116, 4733, 3436)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(4115, 3806, 2764)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(3309, 3061, 2223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(2662, 2462, 1788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(2141, 1981, 1438)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(1722, 1593, 1157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(1385, 1281, 930)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(1114, 1031, 748)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(896, 829, 602)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(721, 667, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(580, 537, 390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(467, 432, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(375, 347, 252)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(302, 279, 203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(243, 225, 163)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(195, 181, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(157, 145, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(126, 117, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(102, 94, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(82, 76, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #44 added RGB(66, 61, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #45 added RGB(53, 49, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #46 added RGB(43, 39, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #47 added RGB(34, 32, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #48 added RGB(28, 25, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #49 added RGB(22, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #50 added RGB(18, 17, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #51 added RGB(14, 13, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #52 added RGB(12, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #53 added RGB(9, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #54 added RGB(7, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #55 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #56 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #57 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #58 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #59 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #60 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #61 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #62 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #63 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #64 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0204 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              8733/65536      104796/786432   (13.3%) 
+nodes                  271/65536        8672/2097152  ( 0.4%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5852/65536      327712/3670016  ( 8.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5187/65536      290472/3670016  ( 7.9%) 
+leaves                 281/65536        8992/2097152  ( 0.4%) 
+leaffaces             6255/65536       12510/131072   ( 9.5%) 
+leafbrushes           1520/65536        3040/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            44156/512000     176624/2048000  ( 8.6%) 
+edges                29891/256000     119564/1024000  (11.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1560148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1876/16777216 ( 0.0%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table      281/65536        1124/262144   ( 0.4%) 
+HDR ambient table      281/65536        1124/262144   ( 0.4%) 
+LDR leaf ambient      1496/65536       41888/1835008  ( 2.3%) 
+HDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452242/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11704
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+5852 faces
+1229009 square feet [176977408.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5852 patches before subdivision
+56012 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9256283, max 2139
+transfer lists:  70.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1936998, 1800636, 1328922)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1149570, 1065081, 777391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672629, 623808, 456797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(492442, 456046, 332365)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(358874, 332373, 242288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(279828, 259026, 188484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(217913, 201702, 146741)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(173134, 160222, 116484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(137579, 127311, 92539)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(110012, 101793, 73969)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(88012, 81431, 59165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(70563, 65285, 47426)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(56598, 52363, 38035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(45436, 42035, 30531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(36487, 33756, 24515)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(29313, 27118, 19694)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(23554, 21790, 15824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(18932, 17513, 12718)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(15218, 14078, 10223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(12235, 11318, 8219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(9837, 9100, 6608)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(7911, 7318, 5314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(6361, 5885, 4273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(5116, 4733, 3436)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(4115, 3806, 2764)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(3309, 3061, 2223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(2662, 2462, 1788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(2141, 1981, 1438)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(1722, 1593, 1157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(1385, 1281, 930)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(1114, 1031, 748)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(896, 829, 602)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(721, 667, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(580, 537, 390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(467, 432, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(375, 347, 252)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(302, 279, 203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(243, 225, 163)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(195, 181, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(157, 145, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(126, 117, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(102, 94, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(82, 76, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #44 added RGB(66, 61, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #45 added RGB(53, 49, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #46 added RGB(43, 39, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #47 added RGB(34, 32, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #48 added RGB(28, 25, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #49 added RGB(22, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #50 added RGB(18, 17, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #51 added RGB(14, 13, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #52 added RGB(12, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #53 added RGB(9, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #54 added RGB(7, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #55 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #56 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #57 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #58 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #59 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #60 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #61 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #62 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #63 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #64 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0220 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes               1239/16384       14868/196608   ( 7.6%) 
+brushsides            7434/163840      59472/1310720  ( 4.5%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              8733/65536      104796/786432   (13.3%) 
+nodes                  271/65536        8672/2097152  ( 0.4%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 44/2048         1408/65536    ( 2.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5852/65536      327712/3670016  ( 8.9%) 
+hdr faces             5852/65536      327712/3670016  ( 8.9%) 
+origfaces             5187/65536      290472/3670016  ( 7.9%) 
+leaves                 281/65536        8992/2097152  ( 0.4%) 
+leaffaces             6255/65536       12510/131072   ( 9.5%) 
+leafbrushes           1520/65536        3040/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            44156/512000     176624/2048000  ( 8.6%) 
+edges                29891/256000     119564/1024000  (11.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1560148/0        ( 0.0%) 
+HDR lightdata         [variable]     1560148/0        ( 0.0%) 
+visdata               [variable]        1876/16777216 ( 0.0%) 
+entdata               [variable]        3396/393216   ( 0.9%) 
+LDR ambient table      281/65536        1124/262144   ( 0.4%) 
+HDR ambient table      281/65536        1124/262144   ( 0.4%) 
+LDR leaf ambient      1496/65536       41888/1835008  ( 2.3%) 
+HDR leaf ambient      1496/65536       41888/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      452242/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11704
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+22 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 502 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/rmod8_rocket_arena*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (453193 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 90
+Reduced 55 texdatas to 46 (2774 bytes to 2286)
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+reading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.prt
+ 196 portalclusters
+ 440 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.01%)
+Total clusters visible: 35436
+Average clusters visible: 180
+Building PAS...
+Average clusters audible: 196
+visdatasize:11372  compressed from 12544
+writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+6319 faces
+5539484 square feet [797685760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6319 patches before subdivision
+77359 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9371053, max 2139
+transfer lists:  71.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1937031, 1800669, 1328959)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1149605, 1065111, 777409)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672665, 623841, 456816)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(492477, 456077, 332381)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(358904, 332399, 242302)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(279854, 259048, 188497)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(217934, 201720, 146752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(173153, 160237, 116493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(137594, 127324, 92546)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(110024, 101803, 73974)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(88022, 81440, 59170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(70571, 65292, 47430)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(56605, 52369, 38039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(45442, 42040, 30534)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(36492, 33759, 24518)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(29317, 27121, 19695)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(23557, 21793, 15826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(18934, 17516, 12719)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(15220, 14080, 10224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(12237, 11320, 8219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(9839, 9102, 6609)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(7912, 7319, 5314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(6362, 5886, 4273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(5117, 4733, 3437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(4115, 3807, 2764)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(3310, 3062, 2223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(2662, 2463, 1788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(2141, 1981, 1438)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(1722, 1593, 1157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(1386, 1282, 931)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(1114, 1031, 749)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(897, 829, 602)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(721, 667, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(580, 537, 390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(467, 432, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(375, 347, 252)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(302, 279, 203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(243, 225, 163)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(195, 181, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(157, 145, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(126, 117, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(102, 94, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(82, 76, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #44 added RGB(66, 61, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #45 added RGB(53, 49, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #46 added RGB(43, 39, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #47 added RGB(34, 32, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #48 added RGB(28, 26, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #49 added RGB(22, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #50 added RGB(18, 17, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #51 added RGB(14, 13, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #52 added RGB(12, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #53 added RGB(9, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #54 added RGB(7, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #55 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #56 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #57 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #58 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #59 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #60 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #61 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #62 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #63 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #64 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0297 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes               1241/16384       14892/196608   ( 7.6%) 
+brushsides            7446/163840      59568/1310720  ( 4.5%) 
+planes                 686/65536       13720/1310720  ( 1.0%) 
+vertexes              9261/65536      111132/786432   (14.1%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                90/12288        6480/884736   ( 0.7%) 
+texdata                 46/2048         1472/65536    ( 2.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6319/65536      353864/3670016  ( 9.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5203/65536      291368/3670016  ( 7.9%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces             6781/65536       13562/131072   (10.3%) 
+leafbrushes           1686/65536        3372/131072   ( 2.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            46088/512000     184352/2048000  ( 9.0%) 
+edges                30944/256000     123776/1024000  (12.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2050660/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11372/16777216 ( 0.1%) 
+entdata               [variable]        3624/393216   ( 0.9%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient      2735/65536       76580/1835008  ( 4.2%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      453193/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12638
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+30 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+PREP OK
+6319 faces
+5539484 square feet [797685760.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6319 patches before subdivision
+77359 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9371053, max 2139
+transfer lists:  71.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1937031, 1800669, 1328958)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1149605, 1065111, 777408)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672665, 623841, 456815)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(492477, 456077, 332381)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(358904, 332399, 242302)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(279854, 259048, 188497)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(217934, 201720, 146752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(173153, 160237, 116493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(137593, 127324, 92546)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(110024, 101803, 73974)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(88022, 81440, 59169)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(70571, 65292, 47429)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(56605, 52369, 38038)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(45442, 42040, 30534)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(36492, 33759, 24518)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(29317, 27121, 19695)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(23557, 21793, 15826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(18934, 17516, 12719)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(15220, 14080, 10224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(12237, 11320, 8219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(9839, 9102, 6609)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(7912, 7319, 5314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(6362, 5886, 4273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(5117, 4733, 3437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(4115, 3807, 2764)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(3310, 3062, 2223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(2662, 2463, 1788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(2141, 1981, 1438)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(1722, 1593, 1157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(1386, 1282, 931)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(1114, 1031, 749)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(897, 829, 602)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(721, 667, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(580, 537, 390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(467, 432, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(375, 347, 252)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(302, 279, 203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(243, 225, 163)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(195, 181, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(157, 145, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(126, 117, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(102, 94, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(82, 76, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #44 added RGB(66, 61, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #45 added RGB(53, 49, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #46 added RGB(43, 39, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #47 added RGB(34, 32, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #48 added RGB(28, 26, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #49 added RGB(22, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #50 added RGB(18, 17, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #51 added RGB(14, 13, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #52 added RGB(12, 11, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #53 added RGB(9, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #54 added RGB(7, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #55 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #56 added RGB(5, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #57 added RGB(4, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #58 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #59 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #60 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #61 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #62 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #63 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #64 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0319 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes               1241/16384       14892/196608   ( 7.6%) 
+brushsides            7446/163840      59568/1310720  ( 4.5%) 
+planes                 686/65536       13720/1310720  ( 1.0%) 
+vertexes              9261/65536      111132/786432   (14.1%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                90/12288        6480/884736   ( 0.7%) 
+texdata                 46/2048         1472/65536    ( 2.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6319/65536      353864/3670016  ( 9.6%) 
+hdr faces             6319/65536      353864/3670016  ( 9.6%) 
+origfaces             5203/65536      291368/3670016  ( 7.9%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces             6781/65536       13562/131072   (10.3%) 
+leafbrushes           1686/65536        3372/131072   ( 2.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            46088/512000     184352/2048000  ( 9.0%) 
+edges                30944/256000     123776/1024000  (12.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2050660/0        ( 0.0%) 
+HDR lightdata         [variable]     2050660/0        ( 0.0%) 
+visdata               [variable]       11372/16777216 ( 0.1%) 
+entdata               [variable]        3624/393216   ( 0.9%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient      2735/65536       76580/1835008  ( 4.2%) 
+HDR leaf ambient      2735/65536       76580/1835008  ( 4.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       98930/0        ( 0.0%) 
+physics               [variable]      453193/4194304  (10.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12638
+Writing c:\users\main\documents\github\gmod-rblx_rocket_arena\map files\11_09_2021_gm_rblx_rocket_arena.bsp
+31 seconds elapsed
